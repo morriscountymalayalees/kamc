@@ -10,7 +10,7 @@ class FooterComponent extends HTMLElement {
                             <p></p>
                             <div class="d-flex pt-2">
                                 <!-- <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-square me-1" href="https://www.facebook.com/parsippanyfunclub"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square me-1" href="https://www.facebook.com/keralaassociationofmorriscounty"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square me-1" href="https://www.instagram.com/parsippanymalayalees/"><i class="fab fa-instagram"></i></a>
                                 <!-- <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
