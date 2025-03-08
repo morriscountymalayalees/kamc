@@ -30,7 +30,7 @@ class EventsComponent extends HTMLElement {
                                             </div> -->
                                         </div>
                                         <div class="position-relative mt-auto">
-                                            <img class="img-fluid" src="img/Marquee-2.png" alt="">
+                                            <img class="img-fluid" src="img/Marquee-2.jpeg" alt="">
                                             <div class="events-overlay">
                                                 <a class="btn btn-outline-primary" href="">
                                                     Register Here
