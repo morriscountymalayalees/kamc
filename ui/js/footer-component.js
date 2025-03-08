@@ -11,14 +11,16 @@ class FooterComponent extends HTMLElement {
                             <div class="d-flex pt-2">
                                 <!-- <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a> -->
                                 <a class="btn btn-square me-1" href="https://www.facebook.com/keralaassociationofmorriscounty"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square me-1" href="https://www.instagram.com/parsippanymalayalees/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square me-1" href="https://www.facebook.com/keralaassociationofmorriscounty/"><i class="fab fa-instagram"></i></a>
                                 <!-- <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <h5 class="text-light mb-4">Address</h5>
-                            <p><i class="fa fa-map-marker-alt me-3"></i>16 Ser Del Dr, Parsippany, NJ 07054</p>
-                            <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                            <h5 class="text-light mb-4">Contact</h5>
+                            <!--<p><i class="fa fa-map-marker-alt me-3"></i>16 Ser Del Dr, Parsippany, NJ 07054</p>-->
+                            <p><i class="fa fa-phone-alt me-3"></i>+1 571-489-9830</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+1 848-448-8433</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+1 551-283-2437</p>
                             <p><i class="fa fa-envelope me-3"></i>contact@kamc.us</p>
                         </div>
                         <div class="col-lg-3 col-md-6">
