@@ -13,7 +13,7 @@ class NavigationComponent extends HTMLElement {
                     <a class="text-white-50 ms-3" href="https://www.facebook.com/keralaassociationofmorriscounty"><i class="fab fa-facebook-f"></i></a>
                     <!-- <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a> -->
                     <!-- <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a> -->
-                    <a class="text-white-50 ms-3" href="https://www.facebook.com/keralaassociationofmorriscounty/"><i class="fab fa-instagram"></i></a>
+                    <a class="text-white-50 ms-3" href="https://www.instagram.com/kamc.us/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
     
