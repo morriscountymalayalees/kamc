@@ -81,8 +81,8 @@ class EventsComponent extends HTMLElement {
                                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                                             <small>Bowling</small>
                                         </div>
-                                        <h5 class="mb-3">Bowling Night - March 7th 7 PM -9 PM</h5>
-                                        <p>We're excited to launch our sports fun initiative with a bowling event! We've reserved 10 lanes at Hanover on March 7 from 7 PM to 9 PM. Participation is on a first-come, first-served basis, so if you're interested, please update your details in the Excel sheet below. Stay tuned—there are more activities planned by the Sports team. Let's have a great time!.</p>
+                                        <h5 class="mb-3">Bowling Night - March 14th 7 PM -9 PM</h5>
+                                        <p>We're excited to launch our sports fun initiative with a bowling event! We've reserved 10 lanes at Hanover on March 14 from 7 PM to 9 PM. Participation is on a first-come, first-served basis, so if you're interested, please update your details in the Excel sheet below. Stay tuned—there are more activities planned by the Sports team. Let's have a great time!.</p>
                                     </div>
                                     <div class="position-relative mt-auto">
                                         <img class="img-fluid" src="img/Bowling.png" alt="">
@@ -151,7 +151,7 @@ class EventsComponent extends HTMLElement {
                                             </div>
                                         </div>
                                         <div class="position-relative mt-auto">
-                                            <img class="img-fluid" src="img/maveli.jpg" alt="">
+                                            <img class="img-fluid" src="img/maveli.gif" alt="">
                                             <div class="events-overlay">
                                                 <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/1OTBaOlLC4tPPWNh2lzBaT_bFlQ7nVf1uk_HflL56QQg/edit?pli=1">
                                                     Coming Soon
