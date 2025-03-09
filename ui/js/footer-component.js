@@ -44,6 +44,15 @@ class FooterComponent extends HTMLElement {
                 <div class="container-fluid copyright">
                     <div class="container">
                         <div class="row">
+                            <div class="col-md-6 text-center text-md-end">
+                            </div>
+                            Disclaimer - The information provided on this website is for general informational purposes only. While we strive to ensure accuracy, we make no warranties or representations about the completeness, reliability, or accuracy of the content. Any reliance on the information is at your own risk.We are not responsible for any losses or damages resulting from the use of this website. External links may be provided for convenience, but we do not endorse or take responsibility for their content. By using this website, you agree to this disclaimer. If you do not agree, please refrain from using our site. We reserve the right to modify this disclaimer at any time. For further inquiries, please contact us. 
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid copyright">
+                    <div class="container">
+                        <div class="row">
                             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 &copy; <a href="#">kamc.us</a>, All Right Reserved.
                             </div>
