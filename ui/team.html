@@ -29,6 +29,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/navigation-component.js" defer></script>
+    <script src="js/footer-component.js" defer></script>
 </head>
 
 <body>
@@ -40,189 +42,343 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-            <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>16 Ser Del Dr, Parsippany, NJ 07054</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>contact@kamc.us</small>
-            </div>
-            <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary m-0"><span class="text-white">Team</span>KAMC</h1>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <!-- <a href="events.html" class="nav-item nav-link">Events</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Service</a>
-                            <a href="donate.html" class="dropdown-item">Donate</a>
-                            <a href="team.html" class="dropdown-item active">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div> -->
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="">
-                        Donate Now
-                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <navigation-component></navigation-component>
     <!-- Navbar End -->
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Our Team</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Our Team</li>
-                </ol>
-            </nav>
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
+            <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
         </div>
-    </div>
-    <!-- Page Header End -->
 
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
-                <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- Start Executive Team -->
+        <div class="mb-4">
+            <h3>Executive Leaders</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
                     <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/Shibu.jpg" alt="">
-                        </div>
+                        <img class="img-fluid" src="img/Shibu.gif" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Shibu">
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
+                            <h5>Shibu Kesavan</h5>
                             <p class="text-primary">President</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6">
                     <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/Sujith.jpeg" alt="">
-                        </div>
+                        <img class="img-fluid" src="img/Sujith.gif" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sujith">
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
+                            <h5>Sujith Karakkadan</h5>
                             <p class="text-primary">Secretary</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-3 col-md-6">
                     <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/Santhosh.jpeg" alt="">
-                        </div>
+                        <img class="img-fluid" src="img/Santhosh.gif" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Santhosh">
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
+                            <h5>Santhosh Viswanath</h5>
                             <p class="text-primary">Treasurer</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+        <!-- End Executive Team -->
 
+        <!-- Sports Team -->
+        <div class="mb-4">
+            <h3>Sports</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Praveen.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Praveen">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Praveen</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Rajesh.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Rajesh">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Rajesh</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Roy.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Roy">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Roy</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Media -->
+        <div class="mb-4">
+            <h3>Media</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Sreehari.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sreehari">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Sreehari</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Bablu.gif" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Bablu">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Bablu</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Ramesh_Nair.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Ramesh Nair">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Ramesh Nair</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Young Nation -->
+        <div class="mb-4">
+            <h3>Young Nation</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Bilahari.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Bilahari">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Bilahari</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Philip.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Philip">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Philip</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Renjith.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Renjith">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Renjith</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music -->
+        <div class="mb-4">
+            <h3>Music</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Rejith.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Rejith">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Rejith</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Jayakrishnan.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Jayakrishnan">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Jayakrishnan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Ramesh_Ponathil.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Ramesh Ponathil">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Ramesh Ponathil</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Emy.gif" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Emy">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Emy</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Arun_Babu.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Arun Babu">
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Arun Babu</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Start Section: Cultural Activities -->
+<div class="mb-4">
+    <h3>Cultural Activities</h3>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Arun.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Arun">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Arun</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Joe.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Joe">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Joe</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Merlin.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Merlin">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Merlin</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Shaheen.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Shaheen">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Shaheen</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Roshni.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Roshni">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Roshni</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Nandana.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Nandana">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Nandana</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Nishad.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Nishad">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Nishad</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Section: Cultural Activities -->
+
+<!-- Start Section: Women Together -->
+<div class="mb-4">
+    <h3>Women Together</h3>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Sagina.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sagina">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Sagina</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Savithiri.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Savithiri">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Savithiri</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Sangeetha.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sangeetha">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Sangeetha</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Susan.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Susan">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Susan</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Section: Women Together -->
+
+<!-- Start Section: Charity -->
+<div class="mb-4">
+    <h3>Charity</h3>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Smitha.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Smitha">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Smitha</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Smriti.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Smriti">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Smriti</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Sati.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sati">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Sati</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="team-item position-relative rounded overflow-hidden">
+                <img class="img-fluid" src="img/Sanil.jpg" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="Sanil">
+                <div class="team-text bg-light text-center p-4">
+                    <h5>Sanil</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Section: Charity -->
+
+
+    </div>
+</div>
+<!-- Team End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4"><span class="text-white">Team</span>KAMC</h1>
-                    <p></p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>16 Ser Del Dr, Parsippany, NJ 07054</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>contact@kamc.us</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">kamc.us</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <footer-component></footer-component>
     <!-- Footer End -->
 
 
