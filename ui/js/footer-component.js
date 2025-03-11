@@ -19,7 +19,7 @@ class FooterComponent extends HTMLElement {
                             <h5 class="text-light mb-4">Contact</h5>
                             <!--<p><i class="fa fa-map-marker-alt me-3"></i>16 Ser Del Dr, Parsippany, NJ 07054</p>-->
                             <p><i class="fa fa-phone-alt me-3"></i>+1 571-489-9830</p>
-                            <p><i class="fa fa-phone-alt me-3"></i>+1 848-448-8433</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+1 419-777-8007</p>
                             <p><i class="fa fa-phone-alt me-3"></i>+1 551-283-2437</p>
                             <p><i class="fa fa-envelope me-3"></i>contact@kamc.us</p>
                         </div>
@@ -39,6 +39,18 @@ class FooterComponent extends HTMLElement {
                                 <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                             </div>
                         </div> -->
+                    </div>
+                </div>
+                <div class="container-fluid copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &#x26A0; <a href="disclaimer.html">Disclaimer</a>, Please visit the <a href="disclaimer.htmlx">link</a> to see details about using the website.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid copyright">
