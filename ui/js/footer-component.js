@@ -45,7 +45,7 @@ class FooterComponent extends HTMLElement {
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &#x26A0; <a href="disclaimer.html">Disclaimer</a>, Please visit the <a href="disclaimer.htmlx">link</a> to see details about using the website.
+                                &#x26A0; <a href="disclaimer.html">Disclaimer</a>, Please visit the <a href="disclaimer.html">link</a> to see details about using the website.
                             </div>
                             <div class="col-md-6 text-center text-md-end">
                                 
