@@ -1,0 +1,211 @@
+{
+    "team": {
+      "title": "Let's Meet With Our Ordinary Soldiers",
+      "sections": [
+        {
+          "category": "Executive Leaders",
+          "members": [
+            {
+              "name": "Shibu Kesavan",
+              "position": "President",
+              "image": "img/Shibu2.jpeg"
+            },
+            {
+              "name": "Sujith Karakkadan",
+              "position": "Secretary",
+              "image": "img/Sujith.gif"
+            },
+            {
+              "name": "Santhosh Viswanath",
+              "position": "Treasurer",
+              "image": "img/Santhosh.gif"
+            }
+          ]
+        },
+        {
+          "category": "Sports",
+          "members": [
+            {
+              "name": "Praveen",
+              "position": "Board Member",
+              "image": "img/Praveen.jpg"
+            },
+            {
+              "name": "Rajesh",
+              "position": "Board Member",
+              "image": "img/Rajesh.jpeg"
+            },
+            {
+              "name": "Roy",
+              "position": "Volunteer",
+              "image": "img/Roy.jpg"
+            }
+          ]
+        },
+        {
+          "category": "Media",
+          "members": [
+            {
+              "name": "Sreehari",
+              "position": "Board Member",
+              "image": "img/Sreehari.jpg"
+            },
+            {
+              "name": "Bablu",
+              "position": "Board Member",
+              "image": "img/Bablu.gif"
+            },
+            {
+              "name": "Ramesh Nair",
+              "position": "Volunteer",
+              "image": "img/Ramesh_Nair.jpg"
+            }
+          ]
+        },
+        {
+          "category": "Young Nation",
+          "members": [
+            {
+              "name": "Bilahari",
+              "position": "Board Member",
+              "image": "img/Bilahari.jpg"
+            },
+            {
+              "name": "Philip",
+              "position": "Volunteer",
+              "image": "img/Philip.jpg"
+            },
+            {
+              "name": "Renjith",
+              "position": "Volunteer",
+              "image": "img/Renjith.jpg"
+            }
+          ]
+        },
+        {
+          "category": "Music",
+          "members": [
+            {
+              "name": "Rejith",
+              "position": "Board Member",
+              "image": "img/Rejith.jpg"
+            },
+            {
+              "name": "Jayakrishnan",
+              "position": "Board Member",
+              "image": "img/Jayakrishnan.jpg"
+            },
+            {
+              "name": "Ramesh Ponathil",
+              "position": "Volunteer",
+              "image": "img/Ramesh_Ponathil.jpg"
+            },
+            {
+              "name": "Emy",
+              "position": "Board Member",
+              "image": "img/Emy.gif"
+            },
+            {
+              "name": "Arun Babu",
+              "position": "Volunteer",
+              "image": "img/Arun_Babu.jpg"
+            }
+          ]
+        },
+        {
+          "category": "Cultural Activities",
+          "members": [
+            {
+              "name": "Arun Sadasivan",
+              "position": "Board Member",
+              "image": "img/Arun.jpeg"
+            },
+            {
+              "name": "Joe",
+              "position": "Volunteer",
+              "image": "img/Joe.jpg"
+            },
+            {
+              "name": "Merlin",
+              "position": "Volunteer",
+              "image": "img/Merlin.jpg"
+            },
+            {
+              "name": "Shaheen",
+              "position": "Volunteer",
+              "image": "img/Shaheen.jpg"
+            },
+            {
+              "name": "Roshni",
+              "position": "Volunteer",
+              "image": "img/Roshni.jpg"
+            },
+            {
+              "name": "Nandana",
+              "position": "Volunteer",
+              "image": "img/Nandana.jpg"
+            },
+            {
+              "name": "Nishad",
+              "image": "img/Nishad.jpg"
+            }
+          ]
+        },
+        {
+          "category": "Women Together",
+          "members": [
+            {
+              "name": "Sagina",
+              "position": "Board Member",
+              "image": "img/Sagina.jpeg"
+            },
+            {
+              "name": "Savithiri",
+              "position": "Volunteer",
+              "image": "img/Savithiri.jpg"
+            },
+            {
+              "name": "Sangeetha",
+              "position": "Volunteer",
+              "image": "img/Sangeetha.jpg"
+            },
+            {
+              "name": "Susan",
+              "position": "Volunteer",
+              "image": "img/Susan.jpg"
+            },
+            {
+                "name": "Navya",
+                "position": "Volunteer",
+                "image": "img/Navya.jpg"
+              }
+          ]
+        },
+        {
+          "category": "Charity",
+          "members": [
+            {
+              "name": "Smitha",
+              "position": "Board Member",
+              "image": "img/Smitha.jpg"
+            },
+            {
+              "name": "Smriti",
+              "position": "Board Member",
+              "image": "img/Smriti.jpg"
+            },
+            {
+              "name": "Sati",
+              "position": "Volunteer",
+              "image": "img/Sati.jpg"
+            },
+            {
+              "name": "Sanil",
+              "position": "Volunteer",
+              "image": "img/Sanil.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
