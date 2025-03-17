@@ -29,7 +29,7 @@ function populateTeam(data) {
                 ${section.members.map(member => `
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item position-relative rounded overflow-hidden">
-                            <img class="img-fluid kamc-team-photo" src="${member.image}" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="${member.name}">
+                            <img class="img-fluid kamc-team-photo" src="${member.image}" onerror="this.onerror=null; this.src='img/Avatar.png';" alt="${member.name}" style="height:250px;width:auto;object-fit:contain;">
                             <div class="team-text bg-light text-center p-4">
                                 <h5>${member.name}</h5>
                                 ${member.position ? `<p class="text-primary">${member.position}</p>` : ''}
