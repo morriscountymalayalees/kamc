@@ -32,8 +32,8 @@ class EventsComponent extends HTMLElement {
                                         <div class="position-relative mt-auto">
                                             <img class="img-fluid" src="img/MARQUEE-2.JPEG" alt="">
                                             <div class="events-overlay">
-                                                <a class="btn btn-outline-primary" href="">
-                                                    Register Here
+                                                <a class="btn btn-outline-primary" href="https://kamcorg.wixsite.com/ticket/event-details-registration/marquee-2">
+                                                    Buy tickets
                                                     <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                         <i class="fa fa-arrow-right"></i>
                                                     </div>
